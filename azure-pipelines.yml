@@ -15,7 +15,7 @@ variables:
   environmentName: 'wepapptestflaskpipelines'
 
   # Project root folder. Point to the folder containing manage.py file.
-  projectRoot: 'henry507/appi'
+  projectRoot: 'resourcegroups/rg-cpo-henry-te-01/.devcontainer'
 
   pythonVersion: '3.10'
 
