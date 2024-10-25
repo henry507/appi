@@ -3,19 +3,19 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '<GUID>'
+  azureServiceConnectionId: 'wepapp'
 
   # Web app name
-  webAppName: '<your-webapp-name>'
+  webAppName: 'wepapptestflaskpipelines'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: '<your-webapp-name>'
+  environmentName: 'wepapptestflaskpipelines'
 
   # Project root folder. Point to the folder containing manage.py file.
-  projectRoot: $(System.DefaultWorkingDirectory)
+  projectRoot: 'resourcegroups/rg-cpo-henry-te-01'
 
   pythonVersion: '3.11'
 
